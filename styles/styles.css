@@ -1,0 +1,254 @@
+/* Universal selector style */
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* shared style  */
+
+.primary-btn{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color:#FD6E0A;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+#CV{
+
+    background-image: url(https://img.icons8.com/?size=80&id=20FjgTazh8FG&format=png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding-left: 50px;
+    color: ;
+    background-position: 10px center;
+}
+#call{
+    background-image: url(https://img.icons8.com/?size=50&id=9729&format=png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding-left: 50px;
+    color: ;
+    background-position: 10px center;
+}
+
+.secondary-btn{
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color:#FFF8F3;
+    font-size: 1em;
+    font-weight: bold;
+    color: #FD6E0A;
+    cursor: pointer; 
+    margin-top: 10px;
+    background-image: ur;
+}
+
+.paragraph{
+    font-weight: 400;  
+    font-size: 1.125em;
+    color: #474747;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size:48px;
+    color: black;
+}
+
+/* header style */
+header{
+    max-height: 100vh;
+    max-width: 100%;
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right; 
+    
+}
+
+/* Nav style start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      animation-play-state: paused;
+}
+
+nav h1{
+    font-weight: bold;
+   font-size: 2.813em;   
+}
+nav h1 span{
+    color:#FD6E0A;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+    list-style: none;
+   
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: #474747;
+    font-size: larger;
+
+}
+/* nav style end */
+
+/* banner style start */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+}
+.banner-txt{
+  width: 25%;
+  padding-left: 200px;
+}
+.banner-txt h2{
+    color: #474747;
+    font-size: 2.813em;
+    
+}
+.banner-txt h1{
+    color: black;
+    font-size: 5.313em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+/* banner style end */
+
+/*about me box style start*/
+
+.about-me{
+   max-width: 1140px;
+   height: 60vh;
+   margin-top: 130px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #FFF8F3;
+   border-radius: 5px;
+}
+.about-box{
+    /* margin:131px 156px 131px 156px; */
+    padding: 130px 150px;
+    width: 80%;
+   
+    text-align: center;
+}
+.about-box p{
+    margin-bottom: 30px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-title{
+    margin-bottom: 0px;
+}
+.item-des{
+    font-weight: bold;
+    
+}
+
+/* about me box end */
+
+/* what I do box style start */
+.skills{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    height: auto;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: start;
+    box-shadow: 0px 6px 50px 0px rgb(219, 214, 214);
+}
+.offers-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.offer-head{
+    text-align: center;
+}
+.offer-head h3{
+     color: #474747;
+    font-size: 2.813em;
+}
+.offer-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* end */
+
+/* resume style start  */
+.resume{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.resume-title{
+     color: #474747;
+    font-size: 2.813em;
+    text-align: center;
+    margin-top: 130px;
+}
+.resume-container{
+    display: flex;
+}
+.resume-column-title{
+     font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.experience-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    color:#757575;
+}
+
+.btn-center{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+footer{
+    max-height: 100vh;
+    max-width: 100%;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-form input[type="text"], footer textarea{
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+   margin-bottom: 20px;
+}
